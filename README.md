@@ -1,12 +1,25 @@
-# personal-workspace
+﻿# personal-workspace
 
-个人公开工作区（原 `lk`）。
+Former public monorepo for notes and code snapshots. **Content has moved**; this repository is a redirect index only.
 
-## 当前内容
+## Where things went
 
-- `git_notes/`：Git 使用笔记
-- `code/`：历史代码快照；其中 `polyp_seg_tensorrt` **已迁出**至私有仓 `PolypSeg_Research/deployment/`
+| Topic | Repository | Location |
+|-------|------------|----------|
+| Polyp segmentation code & TensorRT deployment | [PolypSeg_Research](https://github.com/lkyqyy/PolypSeg_Research) | `deployment/` |
+| Polyp paper reading notes | [PolypSeg_Research](https://github.com/lkyqyy/PolypSeg_Research) | `docs/reading/` |
+| IHC / WSI / nuclei notes & figures | [ER-seg-cell-det](https://github.com/lkyqyy/ER-seg-cell-det) | `docs/from-personal-workspace/` |
+| General study notes & paper figures | [Tech-Records-Study](https://github.com/lkyqyy/Tech-Records-Study) | `07_personal_workspace_notes/` |
 
-## 说明
+## Product repositories
 
-专题项目请使用对应私有仓（胃质控、食管质控、息肉研究、病理 IHC、眼底 FundusAI 等），本仓不再作为业务主入口。
+- [Quality-Control](https://github.com/lkyqyy/Quality-Control) — endoscopy QC (esophagus / stomach)
+- [FundusAI](https://github.com/lkyqyy/FundusAI) — fundus imaging
+- [EUS-Lesion-Analysis](https://github.com/lkyqyy/EUS-Lesion-Analysis) — EUS lesion analysis
+
+## Code moved
+
+See [code/MOVED.md](code/MOVED.md) for the polyp_seg_tensorrt migration note.
+
+---
+*Reorganized 2026-10-04: duplicate code removed; notes absorbed into topic repos.*
